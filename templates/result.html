@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Review Sentiment Predictor</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imdb-favicon.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("https://raw.githubusercontent.com/kishan0725/The-Movie-Cinema/master/static/image.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Website Title -->
+    <div class="container">
+        <h2 class='container-heading' style="color:white;"><span class='heading_first'>Sentiment and Rating Predictor
+                for </span><span class="heading_second">Movie Reviews</span></h2>
+        <div class='description'>
+            <p style="color:white;">A NLP based Web App, built with Flask</p>
+        </div>
+    </div>
+
+    <!-- Prediction Area -->
+    <div class="prediction-area">
+
+        <!-- Result -->
+        <div class="results">
+            <p style="color:white;" class='result-p'>The sentiment of the review is <b><i>{{ pos }}%</i></b> positive
+                and <b><i>{{ neg }}%</I></b> negative.</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class='footer'>
+        <div class="contact">
+            <a target="_blank" href="https://github.com/mrigankvashist"><i
+                    class="fab fa-github fa-lg contact-icon"></i></a>
+        </div>
+        <p class='footer-description'><b>Made with ❤️ by Mrigank Vashist.</b></p>
+    </div>
+
+</body>
+
+</html>
