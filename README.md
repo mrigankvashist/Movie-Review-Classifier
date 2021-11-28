@@ -17,9 +17,11 @@ To serve this project run
 #### Landing Page
 ![App Screenshot](https://github.com/mrigankvashist/Movie-Review/blob/master/screenshots/Landing%20Page.png?raw=true)
 
+#### Sending Review Page
+![App Screenshot](https://github.com/mrigankvashist/Movie-Review/blob/master/screenshots/Sending%20Review.png?raw=true)
+
 #### Result Page
 ![App Screenshot](https://github.com/mrigankvashist/Movie-Review/blob/master/screenshots/Result%20Page.png?raw=true)
 
-#### Sending Review Page
-![App Screenshot](https://github.com/mrigankvashist/Movie-Review/blob/master/screenshots/Sending%20Review.png?raw=true)
+
 
